@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".confirmacion">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="30dp"
+        android:orientation="vertical"
+        android:gravity="top">
+
+        <TextView
+            android:id="@+id/confirmardatos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/confirmardatos"
+            android:textSize="14pt"
+            android:textColor="@color/colorPrimaryDark">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvnombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre"
+            android:textSize="12pt"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/fechadenac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fechadenac"
+            android:textSize="10pt"
+            android:textColor="@color/colorAccent">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvfecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fecha"
+            android:textSize="10pt"
+            android:textColor="@color/colorAccent">
+        </TextView>
+
+        <TextView
+            android:id="@+id/telef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tel"
+            android:textSize="10pt"
+            android:textColor="@color/colorAccent">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvtelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono"
+            android:textSize="10pt"
+            android:textColor="@color/colorAccent">
+        </TextView>
+
+        <TextView
+            android:id="@+id/correoelec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/correoelec"
+            android:textSize="10pt"
+            android:textColor="@color/colorAccent">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textSize="10pt"
+            android:textColor="@color/colorAccent">
+        </TextView>
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desc"
+            android:textSize="10pt"
+            android:textColor="@color/colorAccent">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvdesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion"
+            android:textSize="10pt"
+            android:textColor="@color/colorAccent">
+        </TextView>
+
+
+        <Button
+            android:id="@+id/BtnActivityTwo"
+            android:layout_height="wrap_content"
+            android:text="@string/editardatos"
+            android:layout_width="fill_parent">
+        </Button>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

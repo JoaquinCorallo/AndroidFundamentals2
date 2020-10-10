@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FundamentosAndroid2</string>
+    <string name="nombre">Nombre Completo</string>
+    <string name="fecha">Selecciona tu fecha de nacimiento</string>
+    <string name="telefono">teléfono</string>
+    <string name="email">Email</string>
+    <string name="descripcion">Descripción</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="confirmardatos">Confirmar Datos</string>
+    <string name="editardatos">Editar Datos</string>
+    <string name="fechadenac">Fecha Nacimiento:</string>
+    <string name="tel">Tel:</string>
+    <string name="correoelec">Email:</string>
+    <string name="desc">Descripción:</string>
+</resources>
